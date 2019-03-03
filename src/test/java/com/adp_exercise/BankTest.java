@@ -24,11 +24,11 @@ public class BankTest {
     }
     @Test
     public void creditAccount() throws Exception {
-        Assert.assertEquals("10000.0",bankService.creditAccount(1500));
+        Assert.assertTrue("10000.0",bankService.creditAccount(1500) == 10000.0);
     }
 
     @Test
     public void debitAccount() throws Exception {
-        Assert.assertEquals("8250",bankService.debitAccount(250));
+        Assert.assertTrue("8250",bankService.debitAccount(250) == 8250);
     }
 }
