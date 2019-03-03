@@ -66,12 +66,4 @@ public class CollectionClass {
             System.out.println(m.getKey() + ", " + m.getValue());
         }
     }
-
-    public static void main(String[]args){
-        CollectionClass collectionClass = new CollectionClass();
-        collectionClass.implementCollection();
-        collectionClass.implementLinkedList();
-        collectionClass.implementSet();
-        collectionClass.implementMap();
-    }
 }
